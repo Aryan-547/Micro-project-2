@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Delius+Unicase:wght@700&family=Lato:wght@300;400&family=Noto+Sans+JP:wght@100&family=Noto+Sans+SC:wght@100&family=Open+Sans:wght@400;500&family=Playfair+Display:ital@1&family=Raleway:wght@200;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Dancing+Script:wght@500&family=Delius+Unicase:wght@700&family=Lato:wght@300;400&family=Noto+Sans+JP:wght@100&family=Noto+Sans+SC:wght@100&family=Open+Sans:wght@400;500&family=Playfair+Display:ital@1&family=Raleway:wght@200;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+display: flex;
+width: 100%;
+background-color: #6F6AF7;
+position: fixed;
+top: 0px;
+}
+
+.nav-list{
+width: 70%;
+display: flex;
+align-items: center;
+}
+
+.nav-list li{
+list-style: none;
+padding: 30px 30px;
+font-family: DM Sans;
+font-weight: 1000;
+}
+
+.nav-list li a{
+text-decoration: none;
+color: white;
+}
+
+    
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Delius Unicase;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hammer{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container{
+    display: grid;
+    padding: 10px;
+    color: white;
+    background-color: #6F6AF7;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    align-items: center;
+    font-family: 'DM sans';
+}
+
+#input-text{
+    width: 70%;
+      height: 25px;
+      margin: 0 auto;
+      border: 1px solid white;
+      border-radius: 20px;
+}
+
+
+
+
+
+
+
+.search {
+    width: 100;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    border: 1px solid #FFF;
+    border-right: none;
+    padding-left: 8px;
+    height: 30px;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: black ;
+  }
+  
+  .searchButton {
+    width: 30px;
+    
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+
+    border: 1px solid white;
+   background:  white;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    font-size: 20px;
+    align-items: center;
+  }
+ 
+.grid-item-item1{
+    color: #FFF;
+font-family: Delius Unicase;
+font-size: 61.43px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.image4{
+    margin: 150px 100px 100px 100px;
+    display: flex;
+}
+
+
+.social{
+ margin: 125px 0px 0px 0px;
+ position: sticky;
+ top: 150px;
+   float: right;
+}
+
+.textbox{
+    height: 360px;
+    padding: 20px;
+    width: 50vw;
+    border-radius: 20px;
+    outline-color: #FFF;
+    outline-width: 0px;
+    border: 1px solid #FFF;
+    background: #E5D8FF;
+    resize: none;
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+    margin: 0px 0px 0px 50px;
+    color: #6F7373;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 178.7%; /* 51.823px */
+    
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.c1{
+    background: #929DFF;
+    margin: 0px 20px 50px 100px;
+    height: 80px;
+    width: 220px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%; /* 51.823px */
+    letter-spacing: 2.50px;
+
+
+}
+
+.c2{
+    background: #734CF2;
+    height: 80px;
+    width: 220px;
+    margin: 0px 20px 50px 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%; /* 51.823px */
+    letter-spacing: 2.50px;
+
+}
+
+.c3{
+    background: #D288FF;
+    height: 80px;
+    width: 220px;
+    margin: 0px 20px 50px 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%; /* 51.823px */
+    letter-spacing: 2.50px;
+
+
+}
+
+.c4{
+    background: #000;
+    height: 80px;
+    width: 220px;
+    margin: 0px 125px 50px 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%; /* 51.823px */
+    letter-spacing: 2.50px;
+
+}
+
+
+
+
+#footer{
+    margin: 100px 100px 100px 100px;
+    display: grid;
+    height: 500px;
+    width: 84%;
+    background-color: #483EFF;
+    border-radius: 21px;
+}
+
+
+#div1{
+    height: 100px;
+    width: 100%;
+    margin: 50px 50px 0px 50px ;
+
+    border: 2px ;
+    border-radius: 22px;
+    background: #BCE0F6;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+    text-align: center;
+    line-height: 450%;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+#div2{
+    height: 100px;
+    width: 100%;
+    margin: 50px 50px 0px 50px ;
+
+    border: 2px solid white ;
+    color: white;
+    border-color: white;
+    border-radius: 22px;
+box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+text-align: center;
+line-height: 475%;
+
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 1.4px;
+
+}
+
+#div3{
+    height: 100px;
+    width: 100%;
+    margin: 50px 50px 50px 50px ;
+    border: 2px solid white;
+    color: white;
+    border-color: white;
+    border-radius: 22px;
+box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+    text-align: center;
+    line-height: 475%;
+
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 1.4px;
+}
+
+#right{
+    height: 455px;
+    width: 690px;
+    margin: 20px 50px 0px 100px ;
+    border: 2px solid #FFF;
+    border-radius: 19px ;
+background-color: #FFF;
+grid-area: 1/2/4/3 
+
+} 
+
+h3{
+    padding-top: 50px;
+    color: #04285A;
+    font-family: DM Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    text-align: left;
+    padding-left: 70px;
+}
+
+#status{
+    text-align: left;
+    padding-left: 70px;
+    color: #143565;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 175%;
+    letter-spacing: 1.2px;
+}
+
+
+
+
+#black-box{
+    margin:150px 40px 70px 530px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 26px;
+    text-align: center;
+    line-height: 150%;
+    letter-spacing: 1.5px;
+}
+
+.help-icon{
+    position: fixed;
+    top: 470px;
+    left: 80vw;
+}
+
+.name{
+    margin-left: 25px;
+    color: #143565;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 175%;
+    letter-spacing: 1.2px;  
+}
+
+.Marks{
+    margin-left: 25px; color:
+     #143565;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 175%;
+    letter-spacing: 1.2px;
+}
+
+.Email{
+    margin-left: 29px; color:
+     #143565;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 175%;
+    letter-spacing: 1.2px;
+}
+
+.Phone{
+    margin-left: 20px; 
+    color: #143565;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 175%;
+    letter-spacing: 1.2px;
+}
